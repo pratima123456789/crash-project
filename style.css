@@ -41,6 +41,8 @@ p {
   position: absolute;
   bottom: 0;
   margin: 0;
+  left: 0px;
+  right: 0px;
   height: 50px;
   transition: height .5s;
   -webkit-transition: height .5s;
@@ -67,6 +69,7 @@ small {
 }
 .third{
 width: auto;
+
   background-image: url("https://static1.squarespace.com/static/52ca9fe7e4b0b674fed0231e/568696181c1210feadf73768/5686e739b204d5442c34df09/1451681795507/The-Good-Egg-3.jpg?format=1000w");
 }
 .price {
