@@ -1,28 +1,32 @@
 body {
   font-family: helvetica, sans-serif;
   margin: 0 auto;
-  max-width: 600px;
-  background: #232323;
+  max-width: 70%;
+  background: #f3f2f2;
 }
 div {
-  height: 200px;
+  height: 400px;
   background-size: cover;
   position: relative;
   margin: 40px 0 0 0;
   border-radius: 12px;
-
-
 }
+
+ul {
+      padding-top: 3px;
+      background: rgba(0,0,0,0.5);
+    }
+
 h1 {
-  font-family: 'Londrina Shadow', cursive;
+  font-family: 'Cormorant';
   text-align: center;
   font-size: 75px;
-  color: #aaaaaa;
+  color: #4d4d4d;
   margin: 60px 0 0 0;
 }
 h2 {
   text-align: center;
-  color: #bbbbbb;
+  color: #808080;
   margin: 0px 0 70px 0;
 }
 p {
@@ -37,7 +41,7 @@ p {
   position: absolute;
   bottom: 0;
   margin: 0;
-  height: 30px;
+  height: 50px;
   transition: height .5s;
   -webkit-transition: height .5s;
   -moz-transition: height .5s;
@@ -56,19 +60,42 @@ small {
 }
 
 .first{
-  background-image: url("http://dash.ga.co/assets/firstcourse.jpg");
+  background-image: url("https://www.fashionfixdaily.com/content/images/2016/11/toiletheader-copy.jpg");
 }
 .second{
-  background-image: url("http://dash.ga.co/assets/secondcourse.jpg");
+  background-image: url("https://static.standard.co.uk/s3fs-public/thumbnails/image/2016/09/14/18/farmacy.jpg?w968");
 }
-.dessert{
-  background-image: url("http://dash.ga.co/assets/dessertcourse.jpg");
+.third{
+width: auto;
+  background-image: url("https://static1.squarespace.com/static/52ca9fe7e4b0b674fed0231e/568696181c1210feadf73768/5686e739b204d5442c34df09/1451681795507/The-Good-Egg-3.jpg?format=1000w");
 }
 .price {
   float: right;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
 
+.navbar-nav>li>a {
+  padding-right: 25px;
+}
+
+  .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+      color: #ffffff;
+      background-color: #07060654;
+  }
+
+  a {
+      color: #ffffff;
+      text-decoration: none;
+  }
+
+
+li {float: left;
+   list-style-type:none;
+   }
 
 @media(max-width:500px){
 
@@ -82,6 +109,20 @@ small {
   font-size:20px;
   margin: 20px 0 30px 0;
 
+ }
+
+ h3 {
+   font-size: 15px
+   margin-top: 50px;
+  margin-bottom: 50px;
+
+
+ }
+
+ h4 {
+   font-size: 12px
+   margin-top: 50px;
+  margin-bottom: 50px;
  }
 
  div{
