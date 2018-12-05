@@ -2,8 +2,7 @@
 
 <head>
 
-<script src="/assets/jquery.js"></script>
-<link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+<script src="jquery-3.3.1.min.js"></script>
 <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
   <link rel="stylesheet" href="style.css"/>
 </head>
@@ -22,6 +21,7 @@
      <li><a href="#">Contact Us</a></li>
    </ul> -->
 <ul class="nav nav-pills">
+  <li role="presentation"><a href="#">Home</a></li>
   <li role="presentation" class="active"><a href="aboutus.html">About Us</a></li>
   <li role="presentation"><a href="#">Send us a suggestion!</a></li>
   <li role="presentation"><a href="#">FAQs</a></li>
@@ -39,22 +39,24 @@
 
 </header>
 
-<div class="first">
-  <p>The Attendant <span class="price">Based in the heart of the Shoreditch Triangle, the atmosphere screams hipster</span></p>
- <button class="btn2">Find Out More!</button>
+<div class="first show-description">
+  <p>The Attendant <span class="price">$$</span><br />
+ <small> Located in the heart of the Shoreditch Triangle, The Attendant prides itself in catering to every type of brunch customer from the on-the-go take-away customer to the hearty breakfast savorer. Visit this place to also find out about its decor that pays homage to its history as an abandoned public toilet.</small></p>
 </div>
 
-<div class="second">
-  <p>Farmacy <span class="price">Living out my LA girl fantasy in West London!</span></p>
+<div class="second show-description">
+  <p>Farmacy <span class="price">$$</span><br />
+ <small> Need a place to help you transition into the vegan, clean eating self you always wanted to be? Look no further as this ultra chic eatery up in Notting Hill takes 'juice shots' and 'salads' to a whole new level </small></p>
 </div>
 
-<div class="third">
-  <p>The Good Egg <span class="price">All-day dining destination for a Tel Aviv-inspired breakfast, brunch, lunch or dinner!</span></p>
-</div>
+<div class="third show-description">
+  <p>26 Grains <span class="price">$</span><br />
+  <small> British porridge is reimagined at this Scandinavian-style courtyard café in Covent Garden's health-food hotspot Neal's Yard. Oats are cooked in a variety of milks (coconut, cashew, almond) or juice, and flavoured with cardamom, ginger, nutmeg and star anise. Our favorite is the scrumptious banana and cacao nib porridge. </small></p>
+  </div>
 
 <script>
 $('div').on('click', function(){
-  $(this).toggleClass('price');
+  $(this).toggleClass('show-description');
 });
 </script>
 </body>
