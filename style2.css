@@ -41,7 +41,8 @@ h3{
   text-align: center;
   font-style: italic;
   margin-top: 30px;
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 h4 {
@@ -231,4 +232,8 @@ ol, ul {
 }
 .btn2: hover {
   background-color: red;
+}
+
+button{
+  background-color: #000080
 }
