@@ -169,6 +169,47 @@ li {float: left;
  }
 
 
+  .carousel{
+      background: #2f4357;
+      margin-top: 100px;
+  }
+  .carousel .item{
+      min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+  }
+  .carousel .item img{
+      margin: 0 auto; /* Align slide image horizontally center */
+  }
+  .bs-example{
+  	margin: 20px;
+  }
+
+  .carousel-indicators {
+     position: absolute;
+     bottom: 10px;
+     left: 75%;
+     z-index: 15;
+     width: 60%;
+     padding-left: 0;
+     margin-left: -30%;
+     text-align: center;
+     list-style: none;
+ }
+
+ ol, ul {
+     margin-top: 0;
+     margin-bottom: 10px;
+   }
+
+   ol {
+     display: block;
+     list-style-type: decimal;
+     margin-block-start: 1em;
+     margin-block-end: 1em;
+     margin-inline-start: 0px;
+     margin-inline-end: 0px;
+     padding-inline-start: 40px;
+ }
+
 .btn2 {
   position: absolute;
   top: 50%;
@@ -186,4 +227,8 @@ li {float: left;
 }
 .btn2: hover {
   background-color: red;
+}
+
+.slide2{
+  height: auto;
 }
