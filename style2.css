@@ -41,6 +41,7 @@ h3{
   text-align: center;
   font-style: italic;
   margin-top: 30px;
+  font-size: 30px;
 }
 
 h4 {
@@ -94,20 +95,6 @@ small {
   opacity: 1;
 }
 
-.first{
-  background-image: url("https://www.fashionfixdaily.com/content/images/2016/11/toiletheader-copy.jpg");
-}
-.second {
-  background-image: url("https://static.standard.co.uk/s3fs-public/thumbnails/image/2016/09/14/18/farmacy.jpg?w968");
-}
-.third{
-width: auto;
-background-image: url("https://tr-images.condecdn.net/image/0blEx24jNJ8/crop/1020/f/grains3-nov18-pr.jpg");
-}
-
-.price {
-  float: right;
-}
 
 img {
     max-width: 100%;

@@ -34,22 +34,6 @@ h2 {
   margin: 0px 0 70px 0;
 }
 
-h3{
-  font-family: 'Cormorant';
-  text-align: center;
-  font-style: italic;
-  margin-top: 30px;
-}
-
-h4 {
-  font-family:sans-serif;
-  font-size: 15px;
-  text-align: justify;
-  margin-top: 30px;
-  margin-bottom: 30px;
-
-}
-
 p {
   color: rgba(255,255,255,1);
   font-size: 15px;
@@ -184,46 +168,6 @@ li {float: left;
    margin-bottom: 20px;
  }
 
-  .carousel{
-      background: #2f4357;
-      margin-top: 100px;
-  }
-  .carousel .item{
-      min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
-  }
-  .carousel .item img{
-      margin: 0 auto; /* Align slide image horizontally center */
-  }
-  .bs-example{
-  	margin: 20px;
-  }
-
-  .carousel-indicators {
-     position: absolute;
-     bottom: 10px;
-     left: 75%;
-     z-index: 15;
-     width: 60%;
-     padding-left: 0;
-     margin-left: -30%;
-     text-align: center;
-     list-style: none;
- }
-
- ol, ul {
-     margin-top: 0;
-     margin-bottom: 10px;
-   }
-
-   ol {
-     display: block;
-     list-style-type: decimal;
-     margin-block-start: 1em;
-     margin-block-end: 1em;
-     margin-inline-start: 0px;
-     margin-inline-end: 0px;
-     padding-inline-start: 40px;
- }
 
 .btn2 {
   position: absolute;
